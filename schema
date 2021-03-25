@@ -1,3 +1,4 @@
+<!--local schema-->
 <script type="application/ld+json">
 {
   "@context": {
@@ -115,8 +116,8 @@
     },
     "aggregateRating":{
         "@type":"AggregateRating",
-        "ratingValue": "0",
-        "reviewCount": "0"
+        "ratingValue": "5",
+        "reviewCount": "1"
         },
      "priceRange" : "To Suit"
     },
@@ -153,7 +154,9 @@
   ]
 }
 </script>     
+<!--/Local Schema-->
 
+<!--breadcrumbs Schema-->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org/", 
@@ -196,5 +199,99 @@
   }]
 }
 </script>
+<!--/breadcrumbs Schema-->
 
-   
+<!--Professional Schema-->
+<script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "Service",
+        "name": "Internet Marketing",
+        "provider": {
+            "@type": "ProfessionalService",
+            "name": "Mebsites.com",
+            "image": "https://mebsites.com/wp-content/uploads/2018/08/seo-gurus-snippetr.jpg",
+            "telephone": "+611300632932",
+        "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "",
+        "addressLocality": "Ashmore",
+        "addressRegion": "Queensland",
+        "postalCode": "4214",
+        "addressCountry": "Australia"  
+        },
+         "paymentAccepted":"Visa, Master Card, EFTPOS, Direct deposit, Cash",
+ "priceRange":"500-20000"
+        }}
+    }</script>
+
+<!--/ pro schema -->
+
+<!--internet marketing Schema-->
+<script type="application/ld+json">
+{
+  "@context": "http://www.schema.org",
+  "@type": "ProfessionalService",
+  "name": "Mebsites SEO and Hosting",
+  "url": "https://mebsites.com",
+  "sameAs": [
+  "https://www.facebook.com/mebsites",
+  "https://au.linkedin.com/company/mebsites",
+  "https://www.crunchbase.com/organization/mebsites",
+  "https://www.wordofmouth.com.au/reviews/mebsites-gold-coast-website-design",
+  "https://twitter.com/mebsites",
+  "https://www.behance.net/mebsites",
+  "https://qldbusinessdirectory.com.au/listing/seo-ashmore-mebsites-seo-and-hosting-gold-coast/",
+  "https://mebsites-seo-and-web-design.business.site/",
+  "https://twitter.com/mebsites",
+  "https://www.instagram.com/mebsitesreal/",
+  "https://www.yelp.com/biz/mebsites-ashmore",
+  "https://www.wordofmouth.com.au/reviews/first-choice-removals-gold-coast",
+  "https://github.com/mebsites88s",
+  "https://www.deviantart.com/mebsites",
+  "https://www.truelocal.com.au/business/mebsites-com/ashmore",
+  "https://bestinau.com.au/web-hosting-companies-in-gold-coast/",
+  "https://cityofperth.net/listings/seo-agency",
+  "https://conservativebusiness.directory/listings/seo-agency",
+  "https://thesydneylocal.com.au/listings/seo-agency",
+  "https://malaysiadirectory.tech/listings/seo-experts",
+  "https://mebmedia.com",
+  "https://kangaroo-directory.com/listings/seo-agency",
+  "https://mebsites.tokyo/",
+  "https://hawaiidirectoryonline.com/listings/seo-hawaii",
+  "https://reviewbrisbane.com.au/listings/web-hosting/",
+  "https://connecticut-directory.org/listings/seo-agency",
+  "https://reviewgoldcoast.com.au/listings/seo-gold-coast",
+  "https://guidetotoowoomba.com.au/listings/seo",
+  "https://mebsites.medium.com/"
+  ],
+  "logo": "https://mebsites.com/wp-content/themes/mebsites/images/mebsites-logo-small2.jpg",
+  "image": "https://mebsites.com/wp-content/uploads/2018/08/seo-gurus-snippetr.jpg",
+  "description": "Mebsites.com is the Best Reviewed Global Digital Marketing Agency A Holistic Evidence Based Approach To SEO Online Marketing ⚡ Australian SEO Agency Est. 2011 ➤ We Work With Clients Based All Over The World and locally ",
+  "address": {
+  "@type": "PostalAddress",
+  "streetAddress": "",
+  "addressLocality": "Ashmore",
+  "addressRegion": "Queensland",
+  "postalCode": "4214",
+  "addressCountry": "Australia"
+  },
+  "geo": {
+  "@type": "GeoCoordinates",
+    "latitude": "-27.993521",
+    "longitude": "153.3707683"
+  },
+  "hasMap": "https://g.page/mebsites?share",
+  "openingHours": "Mo, Tu, We, Th, Fr, Sa, Su 08:00-18:00",
+  "contactPoint": {
+  "@type": "ContactPoint",
+  "contactType": "Customer Service",
+  "telephone": "+611300632932"
+  },
+  "paymentAccepted":"Visa, Master Card, EFTPOS, Direct deposit, Cash, Crypto, BTC, Paypal, Stripe",
+  "priceRange":"80-140",
+  "telephone": "+611300632932"
+  }
+}
+</script>
+<!--/internet marketing schema-->
